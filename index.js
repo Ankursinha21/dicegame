@@ -1,9 +1,10 @@
 function buttonClick() {
   let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-  let randomDiceImage = "dice" + randomNumber1 + ".png";
+//   let randomDiceImage = "dice" + randomNumber1 + ".png";
 
-  let randomImageSource = "/" + randomDiceImage;
+//   let randomImageSource = "/" + randomDiceImage;
+  let randomImageSource = "/dice" + randomNumber1 + ".png";
 
   let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
