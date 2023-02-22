@@ -3,11 +3,11 @@ function buttonClick() {
 
   let randomDiceImage = "dice" + randomNumber1 + ".png";
 
-  let randomImageSource = "images/" + randomDiceImage;
+  let randomImageSource = "/" + randomDiceImage;
 
   let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-  let randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+  let randomImageSource2 = "/dice" + randomNumber2 + ".png";
 
   document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
   document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
